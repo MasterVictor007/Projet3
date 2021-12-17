@@ -1,0 +1,39 @@
+/* CONFIG POLICE WEB (Shrinkland) */
+
+@font-face {
+    font-family: 'S-regular';
+    src: url(S-Regular.otf);
+}
+
+
+/* CONFIG POLICE WEB (Roboto) */
+
+@font-face {
+    font-family: 'R-bold';
+    src: url(R-bold.ttf);
+}
+
+@font-face {
+    font-family: 'R-light';
+    src: url(R-light.ttf);
+}
+
+@font-face {
+    font-family: 'R-medium';
+    src: url(R-medium.ttf);
+}
+
+@font-face {
+    font-family: 'R-regular';
+    src: url(R-regular.ttf);
+}
+
+@font-face {
+    font-family: 'R-finner';
+    src: url(R-finner.ttf);
+}
+
+@font-face {
+    font-family: 'R-alt';
+    src: url(R-alt.ttf);
+}
