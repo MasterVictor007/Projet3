@@ -37,3 +37,127 @@
     font-family: 'R-alt';
     src: url(R-alt.ttf);
 }
+
+
+
+
+
+/*________________________________________________________________*/
+
+                                               /* Debut du CSS */
+/*________________________________________________________________*/
+
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+.img_logo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.localisation 
+{
+    font-family: R-light, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: solid 1px rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228);
+    box-shadow: inset 0px 1px 3px 0.1pt rgb(172, 172, 172);
+}
+
+.logo_local
+{
+    display: inline-block;
+    padding-right: 3%;
+}
+
+
+
+
+
+
+/* BODY */
+
+
+.explorer 
+{
+    display: flex;
+    flex-direction: column ;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding-top: 13%;
+    border: solid 1px rgb(251, 251, 251);
+    padding-bottom: 15%;
+    background-color: rgb(251, 251, 251);
+}
+
+.t1
+{
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.p1
+{
+    font-family: R-light, Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-bottom:8%;
+}
+
+.explorer2
+{
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    border: solid 1px white;
+    background: linear-gradient(violet, rgb(199, 68, 199));
+    padding: 15px 25px 15px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    color: white;
+    
+}
+
+
+
+
+/* FONCTIONNEMENT */
+
+.texte_f
+{
+    font-size: x-large;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.fonctionnement
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    padding-bottom: 30%; /* a retirer a la fin  */
+}
+
+
+.fonction
+{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid red;
+}
