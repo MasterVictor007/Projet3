@@ -135,11 +135,11 @@
 
 /* FONCTIONNEMENT */
 
-.texte_f
+.titre_f
 {
     font-size: x-large;
     font-family: R-bold, Arial, Helvetica, sans-serif;
-    margin-top: 40px;
+    margin-top: 55px;
     margin-left: 20px;
 }
 
@@ -147,17 +147,74 @@
 .fonctionnement
 {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     font-family: R-regular, Arial, Helvetica, sans-serif;
-    margin-top: 25px;
-    padding-bottom: 30%; /* a retirer a la fin  */
+    margin-top: -5px;
 }
 
 
 .fonction
 {
     display: flex;
-    margin-top: 20px;
+    width: 75%;
+    margin-top: 35px;
+    border: 1px solid rgb(251, 251, 251);
+    background-color: rgb(251, 251, 251);
+    box-shadow: #c7c6c6 0px 0px 6px 2px;
+    align-items: center ;
+    border-radius: 30px;
+    padding: 15px 25px 15px 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.icone_f
+{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+
+
+/* LES RESTAURANTS */
+
+
+.conteneur_resto
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 55px;
+    font-family: R-regular, Arial, Helvetica, sans-serif;
     border: 1px solid red;
+}
+
+.titre_r
+{
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.section_resto
+{
+
+}
+
+
+.boite_resto
+{
+    
+}
+
+.img_resto
+{
+    width: 50%;
+    height: 50%;
 }
