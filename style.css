@@ -99,9 +99,9 @@
     text-align: center;
     justify-content: center;
     padding-top: 13%;
-    border: solid 1px rgb(251, 251, 251);
+    border: solid 1px rgb(245, 245, 245);
     padding-bottom: 15%;
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(245, 245, 245);
 }
 
 .t1
@@ -160,14 +160,32 @@
     display: flex;
     width: 75%;
     margin-top: 35px;
-    border: 1px solid rgb(251, 251, 251);
-    background-color: rgb(251, 251, 251);
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
     box-shadow: #c7c6c6 0px 0px 6px 2px;
     align-items: center ;
     border-radius: 30px;
     padding: 15px 25px 15px 25px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+}
+
+
+.cercle
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #a2f2d3;
+    border-radius: 100%;
+    background-color: #9200db;
+    color: white;
+    font-size: 14px;
+    left: -12px;
 }
 
 
@@ -193,13 +211,17 @@
     flex-direction: column;
     margin-top: 55px;
     font-family: R-regular, Arial, Helvetica, sans-serif;
-    border: 1px solid red;
+    border: rgb(245, 245, 245) solid 1px;
+    padding-top: 60px;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 35px;
 }
 
 .titre_r
 {
     font-family: R-bold, Arial, Helvetica, sans-serif;
     margin-left: 20px;
+    margin-bottom: -5px;
 }
 
 .section_resto
@@ -207,21 +229,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    margin-bottom: 25px;
 
+}
+
+
+.minibloc1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    background-color: #a2f2d3;
+    position: absolute;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    border-radius: 4%;
+    color: #438069 ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    top: 15px;
+    right: 0px;
+    box-shadow: rgb(184, 184, 184) 1px 0px 5px 1px;
 }
 
 
 .boite_resto
 {
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 80%;
     align-items: center;
+    margin-top: 30px;
 }
 
 .img_resto
 {
-    width: 90%;
+    width: 110%;
     height: 150px;
     object-fit: cover;
     border-radius: 20px 20px 0% 0%;
@@ -229,20 +277,92 @@
 
 .texte_resto
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 110%;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 20px 20px;
     
 }
 
 .h3_resto
 {
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    padding-bottom: 10px;
 
 }
 
 .h4_resto
 {
-    
+    font-family: R-light, Arial, Helvetica, sans-serif;
+    margin-left: 15px;
 }
 
 .icone_r
 {
+    display: flex;
+    justify-content: right ;
+    border-left-width: -50%;
+    margin-right: 15px;
+    margin-top: -20px;
+
+}
+
+
+/* FOOTER */
+
+.footer_p3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(41, 41, 41);
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+.ohmyfood
+{
+    font-family: S-Regular, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.texte_footer
+{
+    display: flex;
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top: 5px;
+
+}
+
+.icone_footer
+{
+    display: flex;
+    flex-direction: row;
+    width: 35px;
+    margin-right: -10px;
+    font-size: 12px;
+    margin-top: 1px;
+
+}
+
+.texte_footer2
+{
+    display: flex;
+    font-family: R-light, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 15px;
 
 }
