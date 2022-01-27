@@ -53,7 +53,14 @@
     padding: 0px;
 }
 
-/* HEADER */
+
+
+
+                                                      /* HEADER */
+
+
+
+
 
 .img_logo
 {
@@ -61,6 +68,7 @@
     justify-content: center;
     margin-top: 20px;
 }
+
 
 .localisation 
 {
@@ -77,6 +85,7 @@
     box-shadow: inset 0px 1px 3px 0.1pt rgb(172, 172, 172);
 }
 
+
 .logo_local
 {
     display: inline-block;
@@ -88,7 +97,12 @@
 
 
 
-/* BODY */
+                                                            /* BODY */
+
+
+
+
+
 
 
 .explorer 
@@ -104,11 +118,13 @@
     background-color: rgb(245, 245, 245);
 }
 
+
 .t1
 {
     font-size: xx-large;
     padding-bottom: 20px;
 }
+
 
 .p1
 {
@@ -116,6 +132,7 @@
     font-size: large;
     padding-bottom:8%;
 }
+
 
 .explorer2
 {
@@ -127,13 +144,18 @@
     margin-right: auto;
     border-radius: 30px;
     color: white;
-    
 }
 
 
 
 
-/* FONCTIONNEMENT */
+                                                 /* FONCTIONNEMENT */
+
+
+
+
+
+
 
 .titre_f
 {
@@ -201,7 +223,13 @@
 
 
 
-/* LES RESTAURANTS */
+
+
+                                                    /* LES RESTAURANTS */
+
+
+
+
 
 
 .conteneur_resto
@@ -217,12 +245,14 @@
     padding-bottom: 35px;
 }
 
+
 .titre_r
 {
     font-family: R-bold, Arial, Helvetica, sans-serif;
     margin-left: 20px;
     margin-bottom: -5px;
 }
+
 
 .section_resto
 {
@@ -231,7 +261,6 @@
     align-items: center;
     position: relative;
     margin-bottom: 25px;
-
 }
 
 
@@ -267,6 +296,7 @@
     margin-top: 30px;
 }
 
+
 .img_resto
 {
     width: 110%;
@@ -274,6 +304,7 @@
     object-fit: cover;
     border-radius: 20px 20px 0% 0%;
 }
+
 
 .texte_resto
 {
@@ -285,22 +316,23 @@
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 0px 0px 20px 20px;
-    
 }
+
 
 .h3_resto
 {
     font-family: R-bold, Arial, Helvetica, sans-serif;
     margin-left: 15px;
     padding-bottom: 10px;
-
 }
+
 
 .h4_resto
 {
     font-family: R-light, Arial, Helvetica, sans-serif;
     margin-left: 15px;
 }
+
 
 .icone_r
 {
@@ -309,11 +341,19 @@
     border-left-width: -50%;
     margin-right: 15px;
     margin-top: -20px;
-
 }
 
 
-/* FOOTER */
+
+
+
+                                                   /* FOOTER */
+
+
+
+
+
+
 
 .footer_p3
 {
@@ -328,6 +368,7 @@
     padding-bottom: 55px;
 }
 
+
 .ohmyfood
 {
     font-family: S-Regular, Arial, Helvetica, sans-serif;
@@ -336,6 +377,7 @@
     margin-left: 15px;
 }
 
+
 .texte_footer
 {
     display: flex;
@@ -343,8 +385,8 @@
     margin-left: 15px;
     font-size: 13px;
     margin-top: 5px;
-
 }
+
 
 .icone_footer
 {
@@ -354,8 +396,8 @@
     margin-right: -10px;
     font-size: 12px;
     margin-top: 1px;
-
 }
+
 
 .texte_footer2
 {
@@ -364,5 +406,172 @@
     font-size: 13px;
     margin-top: 10px;
     margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                   /* PAGE 2 - A la Francaise*/
+
+
+
+
+
+       /*Header*/
+
+.img_p2
+{
+    display: flex;
+    padding-top: 15px;
+
+}   
+
+.alafrancaise
+{
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+
+
+
+       /*BODY*/
+
+
+
+
+
+.conteneur_menu
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 245) ;
+    border-radius: 35px 35px 0% 0%;
+    padding-bottom: 25px;
+    margin-top: -35px;
+
+}      
+
+
+.grandtitre_menu
+{
+    font-family: S-regular, Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 35px ;
 
 }
+
+
+.icone_m
+{
+    display: flex;
+    justify-content: right ;
+    border-left-width: -50%;
+    margin-right: 35px;
+    margin-top: -45px;
+    font-size: 21px;
+
+}
+
+.minititre
+{
+    display: inline-block;
+    font-family: R-finner, Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+
+}
+
+
+.underline_mini
+{
+    border-bottom: 2px solid rgb(0, 238, 255);
+    margin-right: 85%;
+    padding-top: 35px;
+    margin-left: 20px;
+    width: 30px;
+}
+
+
+.section_menu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.boite_menu
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: left;
+    margin-top: 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: #c7c6c6 0px 0px 6px 2px;
+
+}
+
+.texte_menu
+{
+    margin-left: 15px;
+
+}
+
+
+.h3_menu
+{
+    font-family: R-regular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+
+.h4_menu
+{
+    font-family: R-finner;
+    font-size: 13px;
+    margin-top: 5px;
+
+}
+
+
+.euro 
+{
+    display: flex;
+    justify-content: right;
+    margin-top: -20px;
+    margin-right: 15px;
+    font-size: 13px;
+
+}
+
+
+
+
+
+
+
+
+
